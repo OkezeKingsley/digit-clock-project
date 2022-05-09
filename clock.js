@@ -117,7 +117,6 @@ function clock(){
 
 
 
-
 	if(now.getHours() == 13){
 
 		hours.innerText = 1;
@@ -189,8 +188,7 @@ function clock(){
 		indicates.innerText = 'PM';
 	}
 
-
-
+    
 
 
 
@@ -198,7 +196,15 @@ function clock(){
 
 }
 
+
 window.setInterval(clock, 1000);
+
+
+
+
+
+
+
 
 
 

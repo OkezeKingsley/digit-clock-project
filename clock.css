@@ -4,6 +4,7 @@
 body{font-family:serif;
 	 font-weight:16px;
 	 font-size:normal;
+	 overflow:hidden;
 
 	 color:white;
 
@@ -16,6 +17,11 @@ body{font-family:serif;
 .container{width:80%;
 		   margin:auto;}
 
+.center{height:100vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		}
 
 .full-body{text-align:center;
 		   margin:230px auto;
@@ -44,28 +50,15 @@ body{font-family:serif;
 
 #dayName{font-size:30px;
 	 padding-top:5px;}
+
+
 @media(min-width:800px){
 
 	.full-body{width:300px;
+			   font-weight:10px;
+			   font-size:8px;}
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
